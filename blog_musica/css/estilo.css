@@ -1,0 +1,106 @@
+.cinema-body{
+  width: 100%;
+  background-position: center;
+  background-color: black;
+}
+
+.encabezado{
+  background: grey;
+  height: 13rem;
+
+}
+
+.logo{
+  width: 100px;
+  padding-top: 0.5rem;
+}
+
+.redes-sociales{
+  margin-top: 60px;
+}
+
+.menu{
+  background-color: #ffdd99;
+}
+
+#opt{
+  color: black;
+}
+
+/*contedido de pagina pricipal*/
+
+.contenido{
+  margin-top: 2rem;
+  min-height: 50rem;
+}
+
+#contenedor-principal{
+  background-color: #ffdd99;
+  min-height: 90rem;
+  padding-top: 2rem;
+}
+.top{
+  margin: 2px;
+}
+
+.contenido2{
+  background:white;
+}
+
+#segundo-articulo{
+  padding-top: 2rem;
+}
+
+.cantantes{
+  padding-top: 2rem;
+  min-height: 32.7rem;
+}
+
+.tip{
+  margin: 0.5rem;
+  margin-top: 1rem;
+}
+
+
+.silueta{
+  width: 40px;
+  padding-left: 2px;
+  margin-left: 3px;
+}
+
+/*barra derecha de busqueda*/
+
+#panel-busqueda{
+   min-height: 62.4em;
+   background-color: #f5f5f0;
+   padding-top: 1rem;
+
+}
+
+.barra-busqueda{
+  background-color: #ebebe0;
+  min-height: 7rem;
+  margin: 1px;
+}
+
+#lupa{
+  width: 20px;
+}
+
+
+@media (max-width: 850px) {
+  .redes-sociales{
+    margin-top: 0;
+    margin-left: 10rem;
+  }
+
+  .menu{
+    margin-top: 0;
+  }
+
+  .encabezado{
+    height: 17rem;
+  }
+
+
+}
